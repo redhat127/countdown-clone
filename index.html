@@ -6,5 +6,43 @@
     <title>Vite App</title>
     <script type="module" src="/src/main.js"></script>
   </head>
-  <body></body>
+  <body class="flex items-center justify-center min-h-screen flex-col gap-8">
+    <h1 class="capitalize font-bold text-5xl text-slate-800">
+      until new beginning
+    </h1>
+    <div
+      id="countdown"
+      class="grid gap-4 md:gap-8 grid-cols-1 text-sky-700 md:grid-cols-5 mx-auto max-w-4xl"
+    >
+      <div
+        id="months"
+        class="flex items-center justify-center gap-0.5 flex-col"
+      >
+        <h2 class="font-bold text-4xl">0</h2>
+        <p>months</p>
+      </div>
+      <div id="days" class="flex items-center justify-center gap-0.5 flex-col">
+        <h2 class="font-bold text-4xl">0</h2>
+        <p>days</p>
+      </div>
+      <div id="hours" class="flex items-center justify-center gap-0.5 flex-col">
+        <h2 class="font-bold text-4xl">0</h2>
+        <p>hours</p>
+      </div>
+      <div
+        id="minutes"
+        class="flex items-center justify-center gap-0.5 flex-col"
+      >
+        <h2 class="font-bold text-4xl">0</h2>
+        <p>minutes</p>
+      </div>
+      <div
+        id="seconds"
+        class="flex items-center justify-center gap-0.5 flex-col"
+      >
+        <h2 class="font-bold text-4xl">0</h2>
+        <p>seconds</p>
+      </div>
+    </div>
+  </body>
 </html>
